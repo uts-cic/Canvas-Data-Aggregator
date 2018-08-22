@@ -13,16 +13,27 @@ All files are downloaded as .json. In addition, script parses some of .json file
 After downloading files will be presented as following hierarchy:
 
 1. Timestamp (allows to divide samples and track changes)
+
   1.1 Courses.json
+  
   1.2 Courses_ids.txt
+  
   1.3+ Folders for each course. Folder name is course ID
+  
     1.3.1 discussion_topics.json
+    
     1.3.2 enrollments.json
+    
     1.3.3 recent_students.json
+    
     1.3.4 discussion_ids.txt
+    
     1.3.5+ Folders for each discussion within course. Folder name is dicsussion ID
+    
       1.3.5.1 entries.json
+      
       1.3.5.2 view.json
+      
       1.3.5.3 replies_ids.txt
 
 
